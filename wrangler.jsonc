@@ -1,6 +1,7 @@
 {
   "$schema": "node_modules/wrangler/config-schema.json",
-  "name": "kash-app",
+  // "name": "kash-app",
+  "name": "green-sea-c440",
   "main": "./.output/server/index.mjs",
   "compatibility_date": "2024-09-23",
   "compatibility_flags": [
@@ -14,8 +15,8 @@
     // Public / Non-secret configuration variables
     // Secret variables (SUPABASE_SERVICE_ROLE_KEY, LIVEKIT_API_SECRET)
     // should be added via: npx wrangler secret put <NAME>
-    "SUPABASE_URL": "https://YOUR_PROJECT_ID.supabase.co",
-    "SUPABASE_PUBLISHABLE_KEY": "YOUR_SUPABASE_ANON_KEY"
+    "SUPABASE_URL": "https://qvuuekczyozzxcagdiki.supabase.co",
+    "SUPABASE_PUBLISHABLE_KEY": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InF2dXVla2N6eW96enhjYWdkaWtpIiwicm9sZSI6ImFub24iLCJpYXQiOjE3OTIzNDY0MTAsImV4cCI6MjEwNzkyMjQxMH0.ICD4By7jeFcCi22nUFpGS6LXo5p7WiN3WDzVgIPOqjw"
   }
 }
 
