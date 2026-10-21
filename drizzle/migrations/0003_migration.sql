@@ -1,0 +1,1 @@
+ALTER TABLE public.orders ADD COLUMN call_at timestamptz, ADD COLUMN call_from text;

@@ -1,0 +1,21 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "kash-app",
+  "main": "./.output/server/index.mjs",
+  "compatibility_date": "2024-09-23",
+  "compatibility_flags": [
+    "nodejs_compat"
+  ],
+  "assets": {
+    "directory": "./.output/public",
+    "binding": "ASSETS"
+  },
+  "vars": {
+    // Public / Non-secret configuration variables
+    // Secret variables (SUPABASE_SERVICE_ROLE_KEY, LIVEKIT_API_SECRET)
+    // should be added via: npx wrangler secret put <NAME>
+    "SUPABASE_URL": "https://YOUR_PROJECT_ID.supabase.co",
+    "SUPABASE_PUBLISHABLE_KEY": "YOUR_SUPABASE_ANON_KEY"
+  }
+}
+

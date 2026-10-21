@@ -1,0 +1,1 @@
+CREATE POLICY "staff read product photos" ON storage.objects FOR SELECT TO authenticated USING (bucket_id = 'product-photos' AND public.is_staff(auth.uid()));
